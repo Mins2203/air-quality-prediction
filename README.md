@@ -80,3 +80,6 @@ pip install -r requirements.txt
 # 4️⃣ Run the script
 python air_quality_prediction.py
 
+![Heatmap](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/heatmap.png)
+![Scatter](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/scatter.png)
+![Feature Importance](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/feature_importance.png)
