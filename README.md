@@ -50,17 +50,17 @@ This project predicts the **Air Quality Index (AQI)** using real pollutant conce
 ### 🔹 Correlation Heatmap
 Shows relationships between pollutants and AQI.
 
-![Heatmap](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/heatmap.png)
+![Heatmap]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\heatmap.png
 
 ### 🔹 Actual vs Predicted AQI
 Compares predicted values with real AQI data.
 
-![Scatter](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/scatter.png)
+![Scatter]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\scatter.png
 
 ### 🔹 Feature Importance
 Indicates which pollutants most affect air quality.
 
-![Features](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/feature_importance.png)
+![Features]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\feature_importance.png
 
 > 📸 *(If images are not visible yet, add them by uploading screenshots from your local “Interactive Plot” window into a new folder named `assets/` inside your repo.)*
 
@@ -80,6 +80,4 @@ pip install -r requirements.txt
 # 4️⃣ Run the script
 python air_quality_prediction.py
 
-![Heatmap](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/heatmap.png)
-![Scatter](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/scatter.png)
-![Feature Importance](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/feature_importance.png)
+
