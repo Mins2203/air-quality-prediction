@@ -81,13 +81,26 @@ print(f"R²   : {r2:.2f}")
 # -----------------------------
 # STEP 8: Visualizations
 # -----------------------------
-# Actual vs Predicted AQI
-plt.figure(figsize=(8, 5))
+# Instead of only showing plots, also save them
+plt.figure(figsize=(10,6))
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm', fmt=".2f")
+plt.title("Correlation Heatmap of Air Quality Features")
+plt.savefig("assets/heatmap.png")   # ✅ saves image
+plt.show()
+
+plt.figure(figsize=(8,5))
 plt.scatter(y_test, y_pred, color="teal", alpha=0.7)
 plt.xlabel("Actual AQI")
 plt.ylabel("Predicted AQI")
 plt.title("Actual vs Predicted AQI")
 plt.grid(True)
+plt.savefig("assets/scatter.png")   # ✅ saves image
+plt.show()
+
+importances = pd.Series(model.feature_importances_, index=X.columns)
+importances.sort_values(ascending=True).plot(kind="barh", color="orange", figsize=(8,5))
+plt.title("Feature Importance (Random Forest)")
+plt.savefig("assets/feature_importance.png")   # ✅ saves image
 plt.show()
 
 # Feature importance
