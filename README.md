@@ -50,17 +50,17 @@ This project predicts the **Air Quality Index (AQI)** using real pollutant conce
 ### 🔹 Correlation Heatmap
 Shows relationships between pollutants and AQI.
 
-![Heatmap]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\heatmap.png
+![Heatmap](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/heatmap.png)
 
 ### 🔹 Actual vs Predicted AQI
 Compares predicted values with real AQI data.
 
-![Scatter]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\scatter.png
+![Scatter](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/scatter.png)
 
 ### 🔹 Feature Importance
 Indicates which pollutants most affect air quality.
 
-![Features]C:\Users\minak_nabv8zq\OneDrive\Desktop\air_quality_prediction\assets\feature_importance.png
+![Feature Importance](https://raw.githubusercontent.com/Mins2203/air-quality-prediction/main/assets/feature_importance.png)
 
 > 📸 *(If images are not visible yet, add them by uploading screenshots from your local “Interactive Plot” window into a new folder named `assets/` inside your repo.)*
 
@@ -79,5 +79,12 @@ pip install -r requirements.txt
 
 # 4️⃣ Run the script
 python air_quality_prediction.py
+
+
+🧠 About the Project
+
+The model was trained on real AQI data to estimate air quality levels.
+Random Forest Regressor provided the best performance with high R² and low MAE/RMSE values.
+This project demonstrates data cleaning, EDA, visualization, and supervised ML workflow.
 
 
